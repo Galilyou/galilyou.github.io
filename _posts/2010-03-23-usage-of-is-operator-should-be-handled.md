@@ -15,22 +15,22 @@ In addition to this, you can overload the explicit cast operator in case you wan
 
 ``` csharp
 public class Human 
+{
+    public string Name { get; set; }       
+
+}
+
+public class Employee 
+{
+    public string Name { get; set; }
+
+    public string Job { get; set; }
+
+    public override string ToString()
     {
-        public string Name { get; set; }       
-
+        return string.Format("Employee: {0} is {1}", Name, Job);
     }
-    
-    public class Employee 
-    {
-        public string Name { get; set; }
-
-        public string Job { get; set; }
-
-        public override string ToString()
-        {
-            return string.Format("Employee: {0} is {1}", Name, Job);
-        }
-    }
+}
 ```
 
 Now let's say that you want to support an explicit custome conversion from Humans to Employees -for a fictious rule, let's say that every human is unemployed employee. The human class after adding the conversion operator should look like this: 
@@ -38,17 +38,17 @@ Now let's say that you want to support an explicit custome conversion from Human
 ```csharp
 
 public class Human
+{
+    public string Name { get; set; }
+    public static explicit operator Employee(Human h)
+    {
+        return new Employee()
         {
-            public string Name { get; set; }
-            public static explicit operator Employee(Human h)
-            {
-                return new Employee()
-                {
-                    Name = h.Name,
-                    Job = "Happily Unemployeed"
-                };
-            }
-        } 
+            Name = h.Name,
+            Job = "Happily Unemployeed"
+        };
+    }
+} 
 ```
 
 You can now try to cast your Humans to Employees, and see if the cast is really applying your rules, here's how I might attempt to cast one of humans to employee: 
@@ -56,8 +56,8 @@ You can now try to cast your Humans to Employees, and see if the cast is really 
 ``` csharp
 
 Human h = new Human {Name = "John"}; 
-            Employee s = (Employee) h;
-            Console.WriteLine(s);
+Employee s = (Employee) h;
+Console.WriteLine(s);
 ```
 
 If you run this code you should see the output on the console screen saying: 
@@ -92,9 +92,9 @@ The second point I wanna mention is that, the "is" operator works by actually pe
 ```csharp
 
 if(h is Employee)
-            {
-                var x = ((Employee) s).Job;
-            }
+{
+    var x = ((Employee) s).Job;
+}
 ```
 
 This should look familiar to you, a typical pattern when using the is operator is by checking first if a variable is of a given type, then if it is, cast it to that given type and use it. How many casts does the above code segment contain? 2 is the answer! Yes two, one is obvious in the statment
