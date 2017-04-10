@@ -19,12 +19,13 @@ blogger_orig_url: http://www.galilyou.com/2010/01/remove-duplicate-items-from-ar
 
  We loop over the array starting from the item at index 0, then we traverse the remaining part of the array (1 : n-1) searching for the first item
  The C# code for this algorithm looks like the following:
- ```csharp
+
+```csharp
 static int FirstDuplicate(int[] arr)
 {
- for(int i = 0; i &lt; arr.Length - 1; i++)
+ for(int i = 0; i < arr.Length - 1; i++)
  {
-     for(int j = i + 1; j &lt; arr.Length; j++)
+     for(int j = i + 1; j < arr.Length; j++)
      {
          if (arr[i] == arr[j])
              return arr[i];
@@ -32,7 +33,7 @@ static int FirstDuplicate(int[] arr)
  }
  return -1;
 }
- ```
+```
  As you can see, this algorithm is pretty bad. Foreach item in the array an inner loop is initiated to linerally look for that specific element in the
 rest of the array. If you do the math, you shall find that this algorithm runs in O(n2) order of growth.
 
@@ -40,11 +41,11 @@ One way to improve this is to use an extra HashSet to store the items, and then 
 lookup inside the HashSet is really fast.
 Here's the code in C#:
 
- ```csharp
+```csharp
 static int FirstDuplicateWithHashSet(int[] arr)
 {
 	HashSet<int> hashHset = new HashSet<int>();
-	for(int i = 0; i &lt; arr.Length; i++)
+	for(int i = 0; i < arr.Length; i++)
 	{
 	    if (hashHset.Contains(arr[i]))
 	        return arr[i];
@@ -53,7 +54,7 @@ static int FirstDuplicateWithHashSet(int[] arr)
 
 	return 0;
 }
- ```
+```
 This is pretty good, but still not O(n).
 The next algorithm is quite tricky. The idea simply is to create a second array and insert each elemnt in the first array at an index equivalent to its
 value in the second array.
@@ -64,11 +65,11 @@ the second array, then we take the second item (which is 4) and insert it at the
 an item in the second array we check if it has a value first, if it is, then this item is duplicated.
 here's how the code would look like:
 
- ```csharp
+```csharp
 static int FirstDuplicate(int[] arr, int maxVal)
 {
     int[] temp = new int[maxVal+1];
-    for(int i =0; i &lt; arr.Length; i++)
+    for(int i =0; i < arr.Length; i++)
     {
         if (temp[arr[i]] == arr[i])
             return arr[i];
@@ -76,7 +77,7 @@ static int FirstDuplicate(int[] arr, int maxVal)
     }
     return 0;
 }
- ```
+```
  Note: The method expects the maximum value as an input, however, if you don't get the maximum value you can create the temp array with a size
  equal to  int.MaxValue (which is not a good idea)
 

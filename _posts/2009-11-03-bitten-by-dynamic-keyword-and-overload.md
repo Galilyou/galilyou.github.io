@@ -76,6 +76,6 @@ So, at the first sample, the runtime has found the best overload to be the insta
 
 For the second sample code, with no dynamic, the compiler finds out that "DoSomething" doesn't exist in the current context, so it will generate a compile-time error.
 
-If you want to learn more about Overload Resolution, read the <a href="http://msdn.microsoft.com/en-us/library/aa691336(VS.71).aspx">C# Specification</a>.
+If you want to learn more about Overload Resolution, read the [C# Specification](http://msdn.microsoft.com/en-us/library/aa691336(VS.71).aspx).
 
 Do you think this was scary enough, or am I being just too coward?

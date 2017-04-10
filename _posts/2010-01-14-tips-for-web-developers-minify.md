@@ -33,6 +33,7 @@ This document shall do a very little job actually. Simply a user keys his name i
 Below are two buttons -hide, and show. As the name of each button implies, the hide button will hide the area including the label, text box, and the Salute me button.
 
 To do this I'm gonna make use of jQuery 1.3.2. Here's the code needed to achieve the required functionality:
+
 ```js
 /*
  The follwoing code is not part of jqueyr framework
@@ -59,7 +60,7 @@ $(document).ready(function() {
 
  Now I got my files (sample.html, script.js, compiler.jar) in one directory. To run the compiler, launch your terminal, and enter the follwoing command:
 
- java -jar compiler.jar --js script.js --js_output_file scriptMini.js
+```java -jar compiler.jar --js script.js --js_output_file scriptMini.js```
 
  Check your directory. You should find a new file with the name "scriptMini.js" created. The new script file is 55 KB in size, which is less the half size  of the original file. To make sure it's working, change the script src attribute in the sample document to point to the new file. You should see that  the app is still functioning  properly.
 

@@ -28,7 +28,7 @@ Everyone (Well, almost everyone) uses a lanaguage that supports automatic memory
 
 First let's ask Wikipedia, <a href="http://en.wikipedia.org/wiki/Memory_leak">What is Memory Leak</a>? &nbsp;Let me quote the answer here.
 
-<i>A memory leak or leakage in computer science is a particular type of memory consumption by a computer program&nbsp;where the program is unable to release memory it has acquired</i>
+>A memory leak or leakage in computer science is a particular type of memory consumption by a computer program&nbsp;where the program is unable to release memory it has acquired.
 
 I used to think that as long as I don't use unmanaged resources (explicitly) I'm safe. The GC will free all the managed objects from&nbsp;memory once I'm done using them (or when there is no references to these objects). Guess what? I was mistaken!!
 
@@ -41,7 +41,9 @@ To be honest, with nowadays super computers, usually leaks are not a problem unl
 
 <div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/_CvP3b8RZYyc/Svg_PTYXmGI/AAAAAAAAABw/nQj7bxFT30M/s1600-h/Leak.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/_CvP3b8RZYyc/Svg_PTYXmGI/AAAAAAAAABw/nQj7bxFT30M/s320/Leak.jpg" /></a>
 </div>
-<b>What causes those leaks?</b>
+
+#### What causes those leaks?
+
 There are quite a few reasons why a .NET app migh leak memory. The main reasons are:
 <span style="white-space: pre;"> </span>1- Static References
 <span style="white-space: pre;"> </span>2- Event With Missing Unsubscribtion

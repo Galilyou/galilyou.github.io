@@ -16,16 +16,13 @@ Yes, though this is my first post here, I’ve been into blogging before! I’ve
 Blogging for Cowards 101: 
 
 
-<a href="http://1.bp.blogspot.com/_CvP3b8RZYyc/Su6ni2UxmTI/AAAAAAAAABQ/HbQekSG1zpo/s1600-h/run_you_coward.jpg" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"><img alt="" border="0" id="BLOGGER_PHOTO_ID_5399437220403845426" src="http://1.bp.blogspot.com/_CvP3b8RZYyc/Su6ni2UxmTI/AAAAAAAAABQ/HbQekSG1zpo/s320/run_you_coward.jpg" style="cursor: hand; cursor: pointer; display: block; height: 266px; margin: 0px auto 10px; text-align: center; width: 320px;" /></a>   
+![](http://1.bp.blogspot.com/_CvP3b8RZYyc/Su6ni2UxmTI/AAAAAAAAABQ/HbQekSG1zpo/s320/run_you_coward.jpg) 
 
 
-<ol><li><span style="color: #666666;"><strong>What is a coward?</strong> </span>
-A coward is an intelligent trained professional, armed with a powerful brain and likes to explore new things, wastes his time banging onto a modern typing machine, hates compilers, loves WoW, and ultimately is scared of the world ending without him learning enough
+1. **What is a coward?** A coward is an intelligent trained professional, armed with a powerful brain and likes to explore new things, wastes his time banging onto a modern typing machine, hates compilers, loves WoW, and ultimately is scared of the world ending without him learning enough
 
-</li><li> <span style="color: #666666;"><strong>What is Programming?</strong> </span>
-We will figure it out together!
+1. **What is Programming?** We will figure it out together!
 
-</li><li> <span style="color: #666666;"><strong>How can this blog help you?</strong></span>
-Sharing is caring, you know? Yeah, I’m scared too. I will share any new stuff I learn about onto this blog, I will even share my own thoughts (don’t waste your time on those)
-</li></ol>
+2. **How can this blog help you?** Sharing is caring, you know? Yeah, I’m scared too. I will share any new stuff I learn about onto this blog, I will even share my own thoughts (don’t waste your time on those)
+
 So, are you with me, are you a coward? I hope so. Life is not fun without learning, and 2012 is so close, we have a lot work to do! Time is running out, life is running out. So let’s get started, shall we? Ladies and Gents!?

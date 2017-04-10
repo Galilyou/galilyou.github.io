@@ -19,21 +19,25 @@ Dynamic Programming on the other hand is something very different. It's an ancie
 
 It's mainly focused on addressing these two issues:
 
-<ol><li>Overlapping subproblems </li><li>Optimal Substructures</li></ol><div>I think the best way to explain these two fuzzy concepts is by using examples. To start let's see an example of using a famous dynamic programming technique called  Memorization. Assume that we need to implement a function that calculates a <a href="http://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci </a>sequence. I know this is easy, but let's look at this first implementation:</div>```csharp
+<ol><li>Overlapping subproblems </li><li>Optimal Substructures</li></ol><div>I think the best way to explain these two fuzzy concepts is by using examples. To start let's see an example of using a famous dynamic programming technique called  Memorization. Assume that we need to implement a function that calculates a <a href="http://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci </a>sequence. I know this is easy, but let's look at this first implementation:</div>
+
+```csharp
 static int FibClassic(int n, ref int numberOfStepsTaken)
-        {
-            numberOfStepsTaken += 1;
-            if (n &lt;= 1)
-                return 1;
-            Console.WriteLine("FibClassic called with: {0}", n);
-            return FibClassic(n - 1, ref numberOfStepsTaken) + FibClassic(n - 2, ref numberOfStepsTaken);
-        }
+{
+    numberOfStepsTaken += 1;
+    if (n &lt;= 1)
+        return 1;
+    Console.WriteLine("FibClassic called with: {0}", n);
+    return FibClassic(n - 1, ref numberOfStepsTaken) + FibClassic(n - 2, ref numberOfStepsTaken);
+}
 ```
 Note: on the above code I used two counter variables to count the number of times the method executed. I also printed the input on which the method is called every time, just to give you a hint of how dividing a problem can cause the same subproblem to be computed more than once --Subproblem Overlapping, remember! Now let's run the code given the number 6 as input and see what happens: 
+
 ```csharp
 int z = 0;
-            int x = FibClassic(6, ref z);
-            Console.WriteLine("{0}: {1}", x, z);```
+int x = FibClassic(6, ref z);
+Console.WriteLine("{0}: {1}", x, z);
+```
 <div class="separator" style="clear: both; text-align: center;">
 </div>And here's the result of this call:
 <div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/_CvP3b8RZYyc/S1hWDUQQtZI/AAAAAAAAAE8/NVWnG9ZMkXA/s1600-h/output.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="http://4.bp.blogspot.com/_CvP3b8RZYyc/S1hWDUQQtZI/AAAAAAAAAE8/NVWnG9ZMkXA/s640/output.png" width="640" /></a></div>
@@ -42,17 +46,18 @@ As you can see the method has been called first with input 6 which is the initia
 <div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/_CvP3b8RZYyc/S1hV0VZHvcI/AAAAAAAAAE0/dbF7i0TzTYY/s1600-h/tree.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="196" src="http://3.bp.blogspot.com/_CvP3b8RZYyc/S1hV0VZHvcI/AAAAAAAAAE0/dbF7i0TzTYY/s400/tree.png" width="400" /></a></div>
 <div class="separator" style="clear: both; text-align: center;">
 </div>As you notice the overlapping happens when solving one part of the problem includes solving another part of the problem, in such a case we can take advantage of this and simply memorize the solution for the overlapped problem and each time we need that result, we don't have to compute it again, we just supply it from wherever we stored it. Here's the modified method to do it: 
+
+
 ```csharp
 static int FibFast(int n, ref int numberOfStepsTaken, Dictionary<int, int=""> store)</int,>
-        {
-            numberOfStepsTaken += 1;
-            if (n &lt;= 1)
-                return 1;
-            if (!store.ContainsKey(n))
-                store[n] = FibFast(n - 1, ref numberOfStepsTaken, store) + FibFast(n - 2, ref numberOfStepsTaken, store);
-            return store[n];
-        }
-
+{
+    numberOfStepsTaken += 1;
+    if (n &lt;= 1)
+        return 1;
+    if (!store.ContainsKey(n))
+        store[n] = FibFast(n - 1, ref numberOfStepsTaken, store) + FibFast(n - 2, ref numberOfStepsTaken, store);
+    return store[n];
+}
 ```
 If you run that same method on the same input (6) you should get 13 as the result (the same old result) but the number of iterations would be 11 which is about half the number of iterations the first method take. This doesn't seem to be a very huge enhancement, but let's see how the two methods act for bigger numbers.  Running the first method of input equals to 30 we get the result  1346269 and number of iterations  2692537. Now running the second method on the same input (30) we get the result 1346269 -which is the same result- and number of iterations 59!  That's a <b>HUGE </b>difference!
 

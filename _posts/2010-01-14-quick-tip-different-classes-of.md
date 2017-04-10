@@ -19,22 +19,23 @@ Algorithms are the heart of computer science. They are the thoughts, the ideas, 
 </div> 
 <div class="separator" style="clear: both; text-align: center;"> 
 </div>Where the x here is the number of items to be processed by the algorithm, and y is the time takes by the algorithm. As you can see from the figure, the time taken increases slowly when the number of items to be processed increase. Binary Search is a perfect example for a logarithmic algorithm. If you recall, binary search, divides the array into two halves and excludes one half each time it does a search. Here's a code example of binary search implementation in C#: 
- ```csharp
+
+```csharp
 bool BSearch(int[] list, int item, int first, int last) 
 { 
- if(last - first &lt; 2) 
+ if(last - first < 2) 
              return list[first] == item || list[last] == item; 
               
         int mid = (first + last)/2; 
         if(list[mid] == item) 
              return true; 
               
-        if (list[mid] &gt; item) 
+        if (list[mid] > item) 
                 return BSearch(list, item, first, mid - 1); 
   
  return BSearch(list, item, mid + 1, last); 
 } 
- ```
+```
  
 2- Linear Algorithms: 
   Runs in time, linear to the input items. It's curve looks like the following: 
@@ -43,33 +44,33 @@ bool BSearch(int[] list, int item, int first, int last)
  
 A linear search is a typical example of that, where one would traverse the array or, whatever data structure, item by item. An implementation of linear search looks like this: 
  
- ```csharp
+```csharp
 bool LinearSearch(int[] list, int item) 
 { 
-     for(int i = 0; i &lt; list.Length; i++) 
+     for(int i = 0; i < list.Length; i++) 
           if(list[i] == item) 
               return true; 
         return false; 
 } 
- ```
+```
 3- Quadratic Algorithm:    This one runs time grows to to the power of 2, with each increase in the input sizes, which means while processing 2 items the algorithm will do 4 steps, 3 items will take 9 steps, 4 items will take 16 steps, etc. The next figure shows how a quadratic curve might look like:  
 <div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/_CvP3b8RZYyc/S08j5CVWiGI/AAAAAAAAAD0/liMvQSqgBBU/s1600-h/quadratic.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/_CvP3b8RZYyc/S08j5CVWiGI/AAAAAAAAAD0/liMvQSqgBBU/s320/quadratic.png" /></a>  
 </div> 
 A famous example of an algorithm with quadratic growth is Selection Sort:  
  
- ```csharp
+```csharp
 void SelectionSrot(int[] list) 
 { 
 	int i, j; 
 	int min, temp; 
 
-	for (i = 0; i &lt; list.Length - 1; i++) 
+	for (i = 0; i < list.Length - 1; i++) 
 	{ 
 	    min = i; 
 
-	    for (j = i + 1; j &lt; list.Length; j++) 
+	    for (j = i + 1; j < list.Length; j++) 
 	    { 
-	        if (list[j] &lt; list[min]) 
+	        if (list[j] < list[min]) 
 	        { 
 	            min = j; 
 	        } 
@@ -80,7 +81,7 @@ void SelectionSrot(int[] list)
 	    list[min] = temp; 
 	} 
 } 
- ```
+```
  
 4- Exponential Algorithm: 
 This is the super slow of this list of four. It grows exponentially (that is, for 2 items it takes 2 ^ 2, for 3 items it takes 2^3, for 4 items it takes 2 ^ 4, etc. 
