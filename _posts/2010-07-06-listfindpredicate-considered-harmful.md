@@ -70,15 +70,12 @@ List<int> evens = new List<int> { 0, 2, 4, 6, 8, 10};
 var evenGreaterThan10 = evens.Find(e => e > 10);
 
 if(evenGreaterThan10 > 10)
-
 {
 
    // valid value
 
 }
-
-else 
-
+else
 {
 
    // none found    
@@ -111,7 +108,6 @@ The extension method is as simple as:
 
 ``` csharp
 public static bool Find<T>(this List<T> list, Predicate<T> predicate, out T output)
-
 {
 
   output = list.Find(predicate);
@@ -139,7 +135,6 @@ In this case result found would be true and myResult would be zero! A yet better
 
 ``` csharp
 public static bool Find<T>(this List<T> list, Predicate<T> predicate, out T output)
-
 {
 
   int index = list.FindIndex(predicate);
