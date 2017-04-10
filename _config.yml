@@ -1,0 +1,29 @@
+epository: https://github.com/Galilyou/galilyou.github.io
+
+gems:
+- jekyll-github-metadata
+- jekyll-redirect-from
+- jekyll-paginate
+
+paginate: 5
+
+title: "Programming for COWARDS"
+description: "I break it, I fix it, or I don't; either way, I tell you about it"
+tagline: 'I write it for me before I write it for you'
+url: http://galilyou.com
+baseurl: /
+
+# Dependencies
+markdown: kramdown
+highlighter: rouge
+
+# Feed
+copyright: '2017 Ahmed Al-Halwagy'
+feed: feed.xml
+avatar: public/images/avatar.png
+
+# Author
+author:
+  name: 'Ahmed Al-Halwagy'
+  url: https://twitter.com/galilyou
+  email: aghalwagy@gmail.com
