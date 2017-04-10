@@ -53,16 +53,11 @@ Console.WriteLine(evenGreaterThan10);
 
 What the search returned in this case is the value 0, yes zero! because nothing in the list is greater than 10 so Find will just give you default(T). This can lead to some really nasty bugs. Don't curse, this is frickin' documented you lazy sloths.
 
-*
-
-*Important Note:*
+#### Important Note
 
 When searching a list containing value types, make sure the default value for the type does not satisfy the search predicate. Otherwise, there is no way to distinguish between a default value indicating that no match was found and a list element that happens to have the default value 
 
 for the type. If the default value satisfies the search predicate, use the FindIndex method instead.
-
-*
-
 
 
 Trying to be safe in this case you could simply check after finding to see if the returned value is what you actually asked for, something like that: 
@@ -126,7 +121,7 @@ public static bool Find<T>(this List<T> list, Predicate<T> predicate, out T outp
 }
 ```
 
-*EDIT:*
+#### EDIT:
 
 As reported by Kevin Hall in the comments, this method has a serious bug. Consider the following code segment: 
 
