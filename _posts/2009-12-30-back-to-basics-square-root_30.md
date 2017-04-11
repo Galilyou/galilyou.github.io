@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: 'Back to Basics: Square Root Implementation in Python and C# (Newton''s Method)'
 date: '2009-12-30T14:34:00.000+02:00'
 author: Galilyou

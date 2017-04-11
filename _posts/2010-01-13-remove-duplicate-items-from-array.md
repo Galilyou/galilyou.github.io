@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Remove Duplicate Items From an Array - A Classic Puzzle
 date: '2010-01-13T08:50:00.000+02:00'
 author: Galilyou

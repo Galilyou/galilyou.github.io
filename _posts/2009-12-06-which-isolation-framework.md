@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Which Isolation Framework?
 date: '2009-12-06T11:09:00.000+02:00'
 author: Galilyou

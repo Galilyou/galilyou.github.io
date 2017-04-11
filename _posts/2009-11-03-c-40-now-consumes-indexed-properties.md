@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: C# 4.0 Now Consumes Indexed Properties
 date: '2009-11-03T13:55:00.000+02:00'
 author: Galilyou

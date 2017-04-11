@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: 'Tips For Web Developers: Minify Javascript Using Google''s Closure Compiler'
 date: '2010-01-14T11:57:00.000+02:00'
 author: Galilyou

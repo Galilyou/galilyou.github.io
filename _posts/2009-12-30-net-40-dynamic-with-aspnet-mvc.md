@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: ".NET 4.0 Dynamic with ASP.NET MVC"
 date: '2009-12-30T15:38:00.000+02:00'
 author: Galilyou

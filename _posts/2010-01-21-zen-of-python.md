@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: The Zen Of Python
 date: '2010-01-21T13:39:00.000+02:00'
 author: Galilyou

@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Opps! A Leak! In .NET!!
 date: '2009-11-09T18:11:00.000+02:00'
 author: Galilyou

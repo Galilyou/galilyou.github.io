@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Into Git and Loving It
 date: '2010-01-19T12:15:00.000+02:00'
 author: Galilyou

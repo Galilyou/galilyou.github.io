@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Mix 2010 and My Chosen Sessions
 date: '2010-01-06T08:55:00.000+02:00'
 author: Galilyou

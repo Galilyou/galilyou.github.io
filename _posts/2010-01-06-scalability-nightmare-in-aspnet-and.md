@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Scalability Tip In ASP.NET And The MachineKey Element
 date: '2010-01-06T10:27:00.000+02:00'
 author: Galilyou

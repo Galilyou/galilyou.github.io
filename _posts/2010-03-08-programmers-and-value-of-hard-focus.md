@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Programmers And The Value Of Hard Focus
 date: '2010-03-08T14:11:00.000+02:00'
 author: Galilyou

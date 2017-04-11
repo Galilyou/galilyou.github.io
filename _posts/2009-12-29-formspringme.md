@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: FormSpring
 date: '2009-12-29T10:20:00.001+02:00'
 author: Galilyou

@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Why is O(n) Is Pronounced "Big Oh" of n And Why Is "Geek" So Close To "Greek"?
 date: '2010-01-13T15:13:00.000+02:00'
 author: Galilyou

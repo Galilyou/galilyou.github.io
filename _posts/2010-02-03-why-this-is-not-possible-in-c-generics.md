@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Why this is not possible in C# Generics?
 date: '2010-02-03T19:39:00.000+02:00'
 author: Galilyou

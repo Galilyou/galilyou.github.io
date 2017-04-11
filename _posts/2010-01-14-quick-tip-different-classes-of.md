@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: 'A Quick Tip: The Different Classes Of Algorithms'
 date: '2010-01-14T16:23:00.000+02:00'
 author: Galilyou

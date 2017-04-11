@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: List.Find(Predicate <T>) Considered Harmful
 date: '2010-07-06T12:26:00.000+03:00'
 author: Galilyou

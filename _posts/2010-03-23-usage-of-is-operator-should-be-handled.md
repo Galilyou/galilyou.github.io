@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Usage Of The "is" Operator Should Be Handled With Care
 date: '2010-03-23T13:14:00.000+02:00'
 author: Galilyou

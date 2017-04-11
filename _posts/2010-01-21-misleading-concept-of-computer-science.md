@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: 'A Misleading Name of Computer Science Concept: Dynamic Programming'
 date: '2010-01-21T15:22:00.000+02:00'
 author: Galilyou

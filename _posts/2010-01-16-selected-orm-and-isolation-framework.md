@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: The Selected ORM and Isolation Framework
 date: '2010-01-16T02:53:00.000+02:00'
 author: Galilyou

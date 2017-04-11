@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: 'Converting String to Number in Javascript: A Gotcha'
 date: '2012-02-05T17:46:00.000+02:00'
 author: Galilyou

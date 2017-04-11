@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: New, But Not So Obvious, Features in .NET 4.0
 date: '2010-03-14T14:42:00.000+02:00'
 author: Galilyou

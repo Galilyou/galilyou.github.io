@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Moved to Blogger
 date: '2009-11-02T11:31:00.000+02:00'
 author: Galilyou

@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: 'Routing in ASP.NET 4.0 : A Sneak Peak'
 date: '2010-03-02T13:44:00.000+02:00'
 author: Galilyou
