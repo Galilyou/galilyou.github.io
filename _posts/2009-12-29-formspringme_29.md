@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: What Can You Learn From Us? What Can We Learn From You?
 date: '2009-12-29T11:08:00.001+02:00'
 author: Galilyou
