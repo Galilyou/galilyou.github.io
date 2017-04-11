@@ -1,14 +1,7 @@
 <!-- Add Disqus comments. -->
 <div id="disqus_thread"></div>
-<script type="text/javascript">
-  
-  var disqus_shortname = 'galilyou-blog-disqus-com'; // required: replace example with your forum shortname
-  
-  var disqus_config = function () {
-   this.page.url = 'http://galilyou.com{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}';  // Replace PAGE_URL with your page's canonical URL variable
-   this.page.identifier = this.page.url; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-   };
-
+<script type="text/javascript">  
+  var disqus_shortname = 'galilyou-blog-disqus-com';
   /** avoiding inline scripts **/
   (function() {
     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

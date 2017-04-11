@@ -16,7 +16,13 @@ baseurl: /
 
 # Dependencies
 markdown: kramdown
+
+kramdown:
+  extensions: ["tables"]
+
 highlighter: rouge
+
+
 
 # Feed
 copyright: '2017 Ahmed Al-Halwagy'
