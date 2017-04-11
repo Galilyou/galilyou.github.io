@@ -7,9 +7,9 @@ comments: true
     <h1 class="post-title">{{ page.title }}</h1>
     <span class="post-date">{{ page.date | date_to_string }}</span>
     {{ content }}
-    {% if page.comments %}
-        {% include disqus.html %}
-    {% endif %}
+    
+
+    {% include disqus.html %}
     
 </div>
 <div class="comments">
