@@ -7,8 +7,6 @@ date: '2010-07-06T12:26:00.000+03:00'
 author: Galilyou
 tags:
 modified_time: '2010-07-06T20:21:04.819+03:00'
-blogger_id: tag:blogger.com,1999:blog-5568328146032664626.post-5829856647979998780
-blogger_orig_url: http://www.galilyou.com/2010/07/listfindpredicate-considered-harmful.html
 ---
 
 Hold on, it's not goto!

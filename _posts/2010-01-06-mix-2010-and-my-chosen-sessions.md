@@ -9,9 +9,6 @@ tags:
 - community
 - Mix
 modified_time: '2010-01-06T09:38:58.216+02:00'
-thumbnail: http://1.bp.blogspot.com/_CvP3b8RZYyc/S0Qz8V6VCiI/AAAAAAAAAC0/KdO8pVJBxqw/s72-c/mix_mosaic.jpg
-blogger_id: tag:blogger.com,1999:blog-5568328146032664626.post-4270585986631405827
-blogger_orig_url: http://www.galilyou.com/2010/01/mix-2010-and-my-chosen-sessions.html
 ---
 
 Mix 2010 is open for public!

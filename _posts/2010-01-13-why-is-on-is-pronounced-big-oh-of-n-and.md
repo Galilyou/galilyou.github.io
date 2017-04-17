@@ -9,9 +9,6 @@ tags:
 - AsymptoticNotation
 - Greek
 modified_time: '2010-03-07T17:08:06.037+02:00'
-thumbnail: http://4.bp.blogspot.com/_CvP3b8RZYyc/S03GKbPz3OI/AAAAAAAAAC8/_C_E4TJUEUg/s72-c/160px-Omicron_uc_lc.svg.png
-blogger_id: tag:blogger.com,1999:blog-5568328146032664626.post-2621731626989148794
-blogger_orig_url: http://www.galilyou.com/2010/01/why-is-on-is-pronounced-big-oh-of-n-and.html
 ---
 
 <div class="separator" style="clear: both; text-align: auto;">

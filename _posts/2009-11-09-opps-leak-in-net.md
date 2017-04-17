@@ -11,9 +11,6 @@ tags:
 - Events
 - MemoryManagement
 modified_time: '2009-11-09T18:20:23.279+02:00'
-thumbnail: http://4.bp.blogspot.com/_CvP3b8RZYyc/Svg9KNgdRfI/AAAAAAAAABo/aCQks9Iqdo4/s72-c/Happy+C+Guy.jpg
-blogger_id: tag:blogger.com,1999:blog-5568328146032664626.post-8346610521319708454
-blogger_orig_url: http://www.galilyou.com/2009/11/opps-leak-in-net.html
 ---
 
 Are you a smart, happy, hard-working C guy?

@@ -10,9 +10,6 @@ tags:
 - C#4.0
 - DynamicTyping
 modified_time: '2010-01-03T16:28:51.652+02:00'
-thumbnail: http://4.bp.blogspot.com/_CvP3b8RZYyc/SvAycn_HdWI/AAAAAAAAABc/TnNEbhHHSpE/s72-c/scary.jpg
-blogger_id: tag:blogger.com,1999:blog-5568328146032664626.post-7615591602053176198
-blogger_orig_url: http://www.galilyou.com/2009/11/bitten-by-dynamic-keyword-and-overload.html
 ---
 
 I came a cross a very scary piece of code Today on the web, take a look at the following C# 4.0 code:

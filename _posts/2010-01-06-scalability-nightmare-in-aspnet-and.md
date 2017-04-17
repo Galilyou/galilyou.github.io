@@ -7,8 +7,6 @@ date: '2010-01-06T10:27:00.000+02:00'
 author: Galilyou
 tags:
 modified_time: '2010-01-06T10:38:56.367+02:00'
-blogger_id: tag:blogger.com,1999:blog-5568328146032664626.post-3344829017238996761
-blogger_orig_url: http://www.galilyou.com/2010/01/scalability-nightmare-in-aspnet-and.html
 ---
 
 Yesterday, I came a cross a pretty annoying problem with a web application I'm working on nowadays.

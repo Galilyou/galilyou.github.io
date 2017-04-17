@@ -9,8 +9,6 @@ tags:
 - C#
 - Generics
 modified_time: '2010-05-07T21:38:12.126+03:00'
-blogger_id: tag:blogger.com,1999:blog-5568328146032664626.post-4791989053411780561
-blogger_orig_url: http://www.galilyou.com/2010/02/why-this-is-not-possible-in-c-generics.html
 ---
 
 A colleague pointed me to a strange case in C# (not so sure if this actually strange though).

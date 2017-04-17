@@ -9,8 +9,6 @@ tags:
 - C#
 - C#4.0
 modified_time: '2010-03-10T19:30:05.983+02:00'
-blogger_id: tag:blogger.com,1999:blog-5568328146032664626.post-5310131863691552875
-blogger_orig_url: http://www.galilyou.com/2009/11/c-40-now-consumes-indexed-properties.html
 ---
 
 If you dealt with COM Interop before, then you probably know what Indexed Properties mean. If you don’t, hang on with me and you will know in the coming few lines. Consuming Indexed Properties is a new feature to C# 4.0 Beta2. This is used to improve syntax like the following:

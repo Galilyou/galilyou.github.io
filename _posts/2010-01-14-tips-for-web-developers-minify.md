@@ -10,9 +10,6 @@ tags:
 - javascript
 - performance
 modified_time: '2010-01-17T13:35:20.754+02:00'
-thumbnail: http://2.bp.blogspot.com/_CvP3b8RZYyc/S07p4PJV_lI/AAAAAAAAADU/GxTJfORSPTA/s72-c/dampledoc.png
-blogger_id: tag:blogger.com,1999:blog-5568328146032664626.post-9073920255305817540
-blogger_orig_url: http://www.galilyou.com/2010/01/tips-for-web-developers-minify.html
 ---
 
 A faster web site is a goal for every develoepr. We spend a lot of time optimizing server code and processes, parallelizing stuff, indexing

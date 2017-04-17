@@ -8,9 +8,6 @@ author: Galilyou
 tags:
 - Algorithms
 modified_time: '2010-01-14T16:32:52.807+02:00'
-thumbnail: http://1.bp.blogspot.com/_CvP3b8RZYyc/S08ebgdliaI/AAAAAAAAADk/doCvgOon5zA/s72-c/x12-semi-log.gif
-blogger_id: tag:blogger.com,1999:blog-5568328146032664626.post-91624821943193232
-blogger_orig_url: http://www.galilyou.com/2010/01/quick-tip-different-classes-of.html
 ---
 
 Algorithms are the heart of computer science. They are the thoughts, the ideas, and the most fun part of this industry. Scientists categorize the various known algorithms into 4 classes: Logarithmic, Linear, Quadratic and Exponential. Let's look at those briefly:

@@ -9,9 +9,6 @@ tags:
 - Git
 - SourceControl
 modified_time: '2010-02-01T13:30:39.929+02:00'
-thumbnail: http://2.bp.blogspot.com/_CvP3b8RZYyc/S1WFeceVIxI/AAAAAAAAAEk/1V3HDGbOHBg/s72-c/chp_rocket.jpg
-blogger_id: tag:blogger.com,1999:blog-5568328146032664626.post-3060920180646381328
-blogger_orig_url: http://www.galilyou.com/2010/01/into-git-and-loving-it.html
 ---
 
 As it is gaining popularity day by day,and as everyone I know likes it, I thought .. well, let's give it a try.

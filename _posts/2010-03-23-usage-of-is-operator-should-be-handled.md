@@ -7,8 +7,6 @@ date: '2010-03-23T13:14:00.000+02:00'
 author: Galilyou
 tags:
 modified_time: '2010-06-02T12:13:03.229+03:00'
-blogger_id: tag:blogger.com,1999:blog-5568328146032664626.post-6790009086968412079
-blogger_orig_url: http://www.galilyou.com/2010/03/usage-of-is-operator-should-be-handled.html
 ---
 
 C# provides means to explicitly cast from a type to another type. If you want to cast from float to int you can use the (int) cast operator to acheive that. This operator simply says to the compiler, I know you don't like this, but, please let the runtime try to do the cast. This operation can either succed or result in an System.InvalidCastException to be thrown.

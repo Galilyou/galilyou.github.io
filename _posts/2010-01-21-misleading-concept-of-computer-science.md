@@ -9,9 +9,6 @@ tags:
 - Algorithms
 - dynamicProgramming
 modified_time: '2010-02-01T13:09:00.084+02:00'
-thumbnail: http://4.bp.blogspot.com/_CvP3b8RZYyc/S1hWDUQQtZI/AAAAAAAAAE8/NVWnG9ZMkXA/s72-c/output.png
-blogger_id: tag:blogger.com,1999:blog-5568328146032664626.post-7769892905223391217
-blogger_orig_url: http://www.galilyou.com/2010/01/misleading-concept-of-computer-science.html
 ---
 
 Have you heard of these words before?

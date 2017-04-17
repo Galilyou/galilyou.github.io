@@ -11,9 +11,6 @@ tags:
 - ".net 4.0"
 - C#4.0
 modified_time: '2009-12-31T09:16:29.733+02:00'
-thumbnail: http://3.bp.blogspot.com/_CvP3b8RZYyc/SztaqgbrY2I/AAAAAAAAACk/HKbaG2G_RZ0/s72-c/view.png
-blogger_id: tag:blogger.com,1999:blog-5568328146032664626.post-7674113031753818092
-blogger_orig_url: http://www.galilyou.com/2009/12/net-40-dynamic-with-aspnet-mvc.html
 ---
 
 .NET 4.0 ships with a lot of cool, new stuff. For C# the major new feature is the support of dynamic programming. The idea with dynamic support in C#, in short, is that you can statically type a variable as dynamic (yeah, this sounds funny, statically typed as dynamic, I know) in which case the compiler will not check any methods or property binding on this object, rather it will defer all of these resolutions to runtime.

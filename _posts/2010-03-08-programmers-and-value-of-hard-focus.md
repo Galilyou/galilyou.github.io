@@ -8,8 +8,6 @@ author: Galilyou
 tags:
 - self-Improvment
 modified_time: '2010-03-10T16:55:13.557+02:00'
-blogger_id: tag:blogger.com,1999:blog-5568328146032664626.post-1322170361268680012
-blogger_orig_url: http://www.galilyou.com/2010/03/programmers-and-value-of-hard-focus.html
 ---
 
 There was a very <a href="http://www.reddit.com/r/programming/comments/b8qho/how_many_hours_of_pure_work_do_you_put_in_a_day/">interesting </a>discussion on <a href="http://reddit.com/">reddit </a>a few days ago. Some fresh programmer asked how many pure work hours do programmers work per day?
@@ -23,8 +21,7 @@ Most of the answers implied that programmers put less that four hours of pure wo
 
 So, why do programmers work less than most of other carriers' professionals? An immediate answer that might came to my mind "well, that's normal because they are sloths lazy."
 
-<div class="separator" style="clear: both; text-align: center;"><a href="http://www.supercoloring.com/wp-content/thumbnail/2009_04/lazy-programmer-coloring-page.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="304" src="http://www.supercoloring.com/wp-content/thumbnail/2009_04/lazy-programmer-coloring-page.jpg" width="320" /></a></div>
-
+<div class="separator" style="clear: both; text-align: center;"><a href="http://www.supercoloring.com/wp-content/
 <b>False Assumption:</b> If I don't work HARD I will eventually fail to finish my work, and will certainly feel incompetent.
 
 <b>There's a lot to programming than HARD work:</b> For me, it doesn't matter how many hours I work during the day. What matters most, however, is the number of tasks I manage to finish. This is ths only productivity metric to me, and it's not related to the number of working hours, it's related to the number of hours (or minutes) I managed to keep my focus hard.

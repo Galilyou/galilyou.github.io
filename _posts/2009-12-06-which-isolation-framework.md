@@ -13,9 +13,6 @@ tags:
 - tdd
 - moq
 modified_time: '2010-01-17T13:52:04.868+02:00'
-thumbnail: http://2.bp.blogspot.com/_CvP3b8RZYyc/Sxt2BxfttoI/AAAAAAAAACA/J1pn_u4mCl0/s72-c/peaceful-isolation.png
-blogger_id: tag:blogger.com,1999:blog-5568328146032664626.post-8388061434779808621
-blogger_orig_url: http://www.galilyou.com/2009/12/which-isolation-framework.html
 ---
 
 In the world of unit testing Isolation Frameworks are everywhere. Isolation  Frameworks are very handy tools to help you create mock objects. According to <a href="http://en.wikipedia.org/wiki/Mock_object">Wikipedia</a>:

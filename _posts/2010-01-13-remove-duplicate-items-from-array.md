@@ -9,8 +9,6 @@ tags:
 - Algorithms
 - puzzles
 modified_time: '2010-01-17T13:34:19.930+02:00'
-blogger_id: tag:blogger.com,1999:blog-5568328146032664626.post-6817291243805076028
-blogger_orig_url: http://www.galilyou.com/2010/01/remove-duplicate-items-from-array.html
 ---
 
  Today I cam a cross a kinda cool problem. A friend of mine who is at the same time a colleague working with me at the same office was trying to remove a duplicate item from an array of positive integers.

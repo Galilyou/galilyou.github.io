@@ -7,8 +7,6 @@ date: '2010-03-14T14:42:00.000+02:00'
 author: Galilyou
 tags:
 modified_time: '2010-03-14T21:16:39.598+02:00'
-blogger_id: tag:blogger.com,1999:blog-5568328146032664626.post-3861216987829268500
-blogger_orig_url: http://www.galilyou.com/2010/03/new-but-not-so-obvious-features-in-net.html
 ---
 
 .NET 4.0 came out lately with a lot of new, cool, and somewhat game-changing features. These features include language features like the famous dynamic keyword in C# and this whole dynamic dispatching thing that made possible by the DLR (Dynamic Language Runtime).There are also some additions on the library level, the parallel extensions is an obvious example of that.

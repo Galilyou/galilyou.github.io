@@ -8,8 +8,6 @@ tags:
 - UML
 - OOD
 modified_time: '2009-11-11T12:58:43.445+02:00'
-blogger_id: tag:blogger.com,1999:blog-5568328146032664626.post-6209596458542052741
-blogger_orig_url: http://www.galilyou.com/2009/11/quick-tip-operations-are-not-methods.html
 ---
 
 In the industry of software development people always use the terms Operation and Method interchangeably. Often time this is true, other times it's not!

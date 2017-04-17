@@ -9,9 +9,6 @@ tags:
 - GoogleChrome
 - Google
 modified_time: '2009-12-13T16:35:48.864+02:00'
-thumbnail: http://4.bp.blogspot.com/_CvP3b8RZYyc/SyDkgPLl3yI/AAAAAAAAACI/8pdVQ0_2k4Q/s72-c/chrome1.jpg
-blogger_id: tag:blogger.com,1999:blog-5568328146032664626.post-8590499867410044339
-blogger_orig_url: http://www.galilyou.com/2009/12/pretty-neat-extensions-for-google.html
 ---
 
 Today I took a quick whirl to look at some of the avilable extensions for Google Chrome. &nbsp;And here are some of those that I find interesting:

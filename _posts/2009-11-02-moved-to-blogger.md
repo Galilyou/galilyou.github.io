@@ -6,9 +6,6 @@ date: '2009-11-02T11:31:00.000+02:00'
 author: Galilyou
 tags:
 modified_time: '2010-01-18T14:10:14.560+02:00'
-thumbnail: http://1.bp.blogspot.com/_CvP3b8RZYyc/Su6ni2UxmTI/AAAAAAAAABQ/HbQekSG1zpo/s72-c/run_you_coward.jpg
-blogger_id: tag:blogger.com,1999:blog-5568328146032664626.post-2321064573394130074
-blogger_orig_url: http://www.galilyou.com/2009/11/moved-to-blogger.html
 permalink: "/blog/moved-to-blogger"
 ---
 

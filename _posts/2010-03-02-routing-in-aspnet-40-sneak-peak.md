@@ -7,8 +7,6 @@ date: '2010-03-02T13:44:00.000+02:00'
 author: Galilyou
 tags:
 modified_time: '2010-03-02T13:44:30.836+02:00'
-blogger_id: tag:blogger.com,1999:blog-5568328146032664626.post-1238800886658845864
-blogger_orig_url: http://www.galilyou.com/2010/03/routing-in-aspnet-40-sneak-peak.html
 ---
 
 <div class="separator" style="clear: both; text-align: center;"><a href="http://www.ciscorouting.com/routing_engine.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="217" src="http://www.ciscorouting.com/routing_engine.jpg" width="320" alt="Routing" /></a></div>

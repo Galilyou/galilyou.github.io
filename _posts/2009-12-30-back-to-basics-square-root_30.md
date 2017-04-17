@@ -11,9 +11,6 @@ tags:
 - python
 - math
 modified_time: '2009-12-30T14:42:41.226+02:00'
-thumbnail: http://1.bp.blogspot.com/_CvP3b8RZYyc/SztKnW1-8FI/AAAAAAAAACc/tqx_5nk2EJ8/s72-c/isaac_newton.jpg
-blogger_id: tag:blogger.com,1999:blog-5568328146032664626.post-1341442234138685575
-blogger_orig_url: http://www.galilyou.com/2009/12/back-to-basics-square-root_30.html
 ---
 
 In my last <a href="http://galilyou.blogspot.com/2009/12/back-to-basics-square-root.html">post</a>&nbsp;I introduced to you an extra simple algorithm to calculate square roots, it's called the Bi Section method. The Bi (pronounced by) part comes form the word binary. This is due to the fact that each time we pick a guess we pick it at a point in the middle between an upper bound and a lower bound. This technique is very useful in many cases in computer science (e.g. Binary Search is a very famous example of that).

@@ -4,11 +4,6 @@ comments: true
 permalink: "/blog/js-string-to-number"
 title: 'Converting String to Number in Javascript: A Gotcha'
 date: '2012-02-05T17:46:00.000+02:00'
-author: Galilyou
-tags:
-modified_time: '2012-02-05T17:46:29.737+02:00'
-blogger_id: tag:blogger.com,1999:blog-5568328146032664626.post-4995843151474088323
-blogger_orig_url: http://www.galilyou.com/2012/02/converting-string-to-number-in.html
 ---
 
 If you are used to programming in C, Java, or any similar language, you might get surprised by the way Javascript's  [parseInt](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/parseInt) and [parseFloat](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/parseFloat) functions work.
