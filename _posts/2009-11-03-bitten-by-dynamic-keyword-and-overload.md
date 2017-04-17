@@ -1,6 +1,7 @@
 ---
 layout: post
 comments: true
+permalink: "/blog/csharp-dynamic-overload-resolution"
 title: Bitten by the dynamic Keyword and Overload Resolution in C#
 date: '2009-11-03T15:53:00.000+02:00'
 author: Galilyou
@@ -63,7 +64,7 @@ namespace DynamicDemo
      dynamic d = new ExpandoObject();
      d.Shoot = "Booom!";
      DoSomeThing(d);
-   } 
+   }
  }
 }
 ```

@@ -1,10 +1,11 @@
 ---
 layout: post
 comments: true
+permalink: "/blog/asp-net-routing"
 title: 'Routing in ASP.NET 4.0 : A Sneak Peak'
 date: '2010-03-02T13:44:00.000+02:00'
 author: Galilyou
-tags: 
+tags:
 modified_time: '2010-03-02T13:44:30.836+02:00'
 blogger_id: tag:blogger.com,1999:blog-5568328146032664626.post-1238800886658845864
 blogger_orig_url: http://www.galilyou.com/2010/03/routing-in-aspnet-40-sneak-peak.html
@@ -12,10 +13,10 @@ blogger_orig_url: http://www.galilyou.com/2010/03/routing-in-aspnet-40-sneak-pea
 
 <div class="separator" style="clear: both; text-align: center;"><a href="http://www.ciscorouting.com/routing_engine.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="217" src="http://www.ciscorouting.com/routing_engine.jpg" width="320" alt="Routing" /></a></div>
 One of the cool features of ASP.NET MVC is the ability to provide clean, extension less, and SEO/user friendly urls. This is accomplished by using the new routing system in ASP.NET.
-  
+
 Before ASP.NET 4.0, people used to get these clean urls using a technique called <a href="http://weblogs.asp.net/scottgu/archive/2007/02/26/tip-trick-url-rewriting-with-asp-net.aspx">UrlRewriting or UrlRewiring.</a> The technique did get the job done, but unfortunately was somewhat complicated and involved the use of third party components.
 
-Now with ASP.NET 4.0, and with the addition of the new Routing System, we can get clean urls, like those we get with MVC, in Web Forms. 
+Now with ASP.NET 4.0, and with the addition of the new Routing System, we can get clean urls, like those we get with MVC, in Web Forms.
 
 To do this we need to first define our routes, seconde register them in the current RouteTable when the application starts.
 
@@ -32,8 +33,8 @@ void Application_Start(object sender, EventArgs e)
 void RegisterRoutes(RouteCollection routes)
 {
     routes.MapPageRoute(
-        "ProductDetails", 
-        "Products/{id}", 
+        "ProductDetails",
+        "Products/{id}",
         "~/ProductDetails.aspx");
 }
 ```

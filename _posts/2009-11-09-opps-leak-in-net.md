@@ -1,6 +1,7 @@
 ---
 layout: post
 comments: true
+permalink: "/blog/memory-leak-net"
 title: Opps! A Leak! In .NET!!
 date: '2009-11-09T18:11:00.000+02:00'
 author: Galilyou
@@ -33,7 +34,7 @@ First let's ask Wikipedia, <a href="http://en.wikipedia.org/wiki/Memory_leak">Wh
 
 I used to think that as long as I don't use unmanaged resources (explicitly) I'm safe. The GC will free all the managed objects from&nbsp;memory once I'm done using them (or when there is no references to these objects). Guess what? I was mistaken!!
 
-One more point from this Wikipedia article: 
+One more point from this Wikipedia article:
 <i> Languages that provide automatic memory management, like Java, C#, VB.NET or LISP,&nbsp;are not immune to memory leaks. For example, a program could create a circular loop of object references&nbsp;which the memory manager is unable to recognize as unreachable.</i>
 
 GC frees only objects that has become unreachable. If the object is still reachable, somehow (probably your mistake), then&nbsp;GC will not free it. Which introduces a leak ...

@@ -1,6 +1,7 @@
 ---
 layout: post
 comments: true
+permalink: "/blog/dynamic-programming"
 title: 'A Misleading Name of Computer Science Concept: Dynamic Programming'
 date: '2010-01-21T15:22:00.000+02:00'
 author: Galilyou
@@ -32,7 +33,7 @@ static int FibClassic(int n, ref int numberOfStepsTaken)
     return FibClassic(n - 1, ref numberOfStepsTaken) + FibClassic(n - 2, ref numberOfStepsTaken);
 }
 ```
-Note: on the above code I used two counter variables to count the number of times the method executed. I also printed the input on which the method is called every time, just to give you a hint of how dividing a problem can cause the same subproblem to be computed more than once --Subproblem Overlapping, remember! Now let's run the code given the number 6 as input and see what happens: 
+Note: on the above code I used two counter variables to count the number of times the method executed. I also printed the input on which the method is called every time, just to give you a hint of how dividing a problem can cause the same subproblem to be computed more than once --Subproblem Overlapping, remember! Now let's run the code given the number 6 as input and see what happens:
 
 ```csharp
 int z = 0;
@@ -46,7 +47,7 @@ As you can see the method has been called first with input 6 which is the initia
 
 <div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/_CvP3b8RZYyc/S1hV0VZHvcI/AAAAAAAAAE0/dbF7i0TzTYY/s1600-h/tree.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="196" src="http://3.bp.blogspot.com/_CvP3b8RZYyc/S1hV0VZHvcI/AAAAAAAAAE0/dbF7i0TzTYY/s400/tree.png" width="400" /></a></div>
 <div class="separator" style="clear: both; text-align: center;">
-</div>As you notice the overlapping happens when solving one part of the problem includes solving another part of the problem, in such a case we can take advantage of this and simply memorize the solution for the overlapped problem and each time we need that result, we don't have to compute it again, we just supply it from wherever we stored it. Here's the modified method to do it: 
+</div>As you notice the overlapping happens when solving one part of the problem includes solving another part of the problem, in such a case we can take advantage of this and simply memorize the solution for the overlapped problem and each time we need that result, we don't have to compute it again, we just supply it from wherever we stored it. Here's the modified method to do it:
 
 
 ```csharp

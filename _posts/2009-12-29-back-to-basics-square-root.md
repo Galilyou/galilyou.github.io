@@ -1,6 +1,7 @@
 ---
 layout: post
 comments: true
+permalink: "/blog/square-root-python"
 title: 'Back to Basics: Square Root Implementation in Python'
 date: '2009-12-29T17:54:00.000+02:00'
 author: Galilyou

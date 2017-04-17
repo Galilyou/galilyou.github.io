@@ -1,6 +1,7 @@
 ---
 layout: post
 comments: true
+permalink: "/blog/js-minification"
 title: 'Tips For Web Developers: Minify Javascript Using Google''s Closure Compiler'
 date: '2010-01-14T11:57:00.000+02:00'
 author: Galilyou
@@ -39,18 +40,18 @@ To do this I'm gonna make use of jQuery 1.3.2. Here's the code needed to achieve
 /*
  The follwoing code is not part of jqueyr framework
 */
-$(document).ready(function() { 
- $('#hiFiver').click(function() { 
+$(document).ready(function() {
+ $('#hiFiver').click(function() {
   var userName = $('#txtName').val();
-  alert ("Hello " + userName); 
+  alert ("Hello " + userName);
  });
- 
- $('#showButton').click(function() { 
+
+ $('#showButton').click(function() {
   $('#hidden').show();
  });
- 
- $('#hideButton').click(function() { 
-  $('#hidden').hide(); 
+
+ $('#hideButton').click(function() {
+  $('#hidden').hide();
  });
 });
 ```

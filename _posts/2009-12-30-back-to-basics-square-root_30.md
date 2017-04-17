@@ -1,6 +1,7 @@
 ---
 layout: post
 comments: true
+permalink: "/blog/square-root-newton"
 title: 'Back to Basics: Square Root Implementation in Python and C# (Newton''s Method)'
 date: '2009-12-30T14:34:00.000+02:00'
 author: Galilyou
@@ -35,11 +36,11 @@ This time I will introduce a different method to calculate square roots, this me
 <span style="font-family: sans-serif; font-size: small;"><span style="font-size: 13px; line-height: 19px;">
 
 ```python
-def sqrtWithPrecisonNR(x, precision):   
+def sqrtWithPrecisonNR(x, precision):
     assert x >= 0, 'x must be non-negative, not' + str(x)
     assert precision > 0, 'epsilon must be positive, not' + str(precision)
     x = float(x)
-    guess = x/2.0    
+    guess = x/2.0
     diff = guess**2 -x
     ctr = 1
     while abs(diff) > precision and ctr <= 100:
@@ -76,17 +77,17 @@ float SqrtWithPrecisonNR(float x, float precision)
         }
 ```
 
-Now, I want you to try this method with the <a href="http://galilyou.blogspot.com/2009/12/back-to-basics-square-root.html">last one</a> and see the difference. 
-Here's a helper function that will test the two methods with input 2 as the root and 0.000001 precision: 
+Now, I want you to try this method with the <a href="http://galilyou.blogspot.com/2009/12/back-to-basics-square-root.html">last one</a> and see the difference.
+Here's a helper function that will test the two methods with input 2 as the root and 0.000001 precision:
 
 
 
 ```python
 def testMethods():
     sqrtWithPrecision(2, 0.000001)
-    sqrtWithPrecisionNR(2, 0.000001)    
+    sqrtWithPrecisionNR(2, 0.000001)
 ```
 </span></span><span style="font-family: sans-serif; font-size: small;"><span style="font-size: 13px; line-height: 19px;">
 You should see that the Newton's method is much faster and this difference in speed will be totally apparent when you try it on bigger numbers.
-</span></span> <span style="font-family: sans-serif; font-size: small;"><span style="font-size: 13px; line-height: 19px;"> </span></span> <span style="font-family: sans-serif; font-size: small;"><span style="font-size: 13px; line-height: 19px;"> </span></span> 
+</span></span> <span style="font-family: sans-serif; font-size: small;"><span style="font-size: 13px; line-height: 19px;"> </span></span> <span style="font-family: sans-serif; font-size: small;"><span style="font-size: 13px; line-height: 19px;"> </span></span>
 <span style="font-family: sans-serif; font-size: small;"><span style="font-size: 13px; line-height: 19px;">For more details about the Newton's method including the mathematical stuff see <a href="http://en.wikipedia.org/wiki/Newton's_method">here</a></span></span>

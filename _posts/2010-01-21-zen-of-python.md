@@ -1,6 +1,7 @@
 ---
 layout: post
 comments: true
+permalink: "/blog/python-zen"
 title: The Zen Of Python
 date: '2010-01-21T13:39:00.000+02:00'
 author: Galilyou

@@ -8,9 +8,12 @@ gems:
 
 paginate: 5
 
+# permalink
+permalink: /blog/:title
+
 title: "Programming for COWARDS"
 description: "I break it, I fix it, or I don't; either way, I tell you about it"
-tagline: 'I write it for me before I write it for you'
+tagline: 'Programming, .NET, DevOps, Node, JavaScript, Angular, SQL, Docker'
 url: http://galilyou.com
 baseurl: /
 

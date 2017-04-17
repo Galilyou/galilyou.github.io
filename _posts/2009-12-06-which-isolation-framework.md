@@ -1,6 +1,7 @@
 ---
 layout: post
 comments: true
+permalink: "/blog/your-isolation-framework"
 title: Which Isolation Framework?
 date: '2009-12-06T11:09:00.000+02:00'
 author: Galilyou
@@ -23,5 +24,5 @@ In the world of unit testing Isolation Frameworks are everywhere. Isolation  Fra
 </div>
 <div class="separator" style="clear: both; text-align: center;">
 </div>
-In the world of .NET there are a lot of tools out there to be used as  Isolation Frameworks. There have been a lot of debate around the best isolation  framework –Including this <a href="http://stackoverflow.com/" target="_blank">StackOverflow</a> <a href="http://stackoverflow.com/questions/37359/what-c-mocking-framework-to-use" target="_blank">question</a>. 
+In the world of .NET there are a lot of tools out there to be used as  Isolation Frameworks. There have been a lot of debate around the best isolation  framework –Including this <a href="http://stackoverflow.com/" target="_blank">StackOverflow</a> <a href="http://stackoverflow.com/questions/37359/what-c-mocking-framework-to-use" target="_blank">question</a>.
 If you have used any mocking framework, and felt like it’s a good tool to  use, please vote on the poll on the left to this post or leave a comment about  your experience with your preferred isolation framework.

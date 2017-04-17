@@ -1,6 +1,7 @@
 ---
 layout: post
 comments: true
+permalink: "/blog/chrome-extensions"
 title: Pretty Neat Extensions For Google Chrome
 date: '2009-12-10T14:01:00.000+02:00'
 author: Galilyou
