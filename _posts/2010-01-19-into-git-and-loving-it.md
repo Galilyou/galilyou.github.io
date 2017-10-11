@@ -32,53 +32,57 @@ This will create the repository for you (and will also create a default "master"
 
 ```git add filename.css```
 
-The selected files are now tracked by Git to your repsoitory, to commit those files to the repository (the LOCAL repository, remember?) :
+The selected files are now tracked by Git to your repsoitory, to commit those files to the repository (the LOCAL repository, remember?):
 
- ```
-git commit -a
- ```
+ ```git commit -a```
+
 This will open vim for you to enter a commit message. Enter your message, and quite vi, then Git will commit your changes to the DB.
 
-<b>Note: </b>
-<i>If you're not familiar with vim or vi, to quite the editor saving the changes type ":wq" -that's colon wq- or ":q" to quit without saving. Or you can specify -m to the git commit command followed by the message you want in double quotes, like so: </i>
- ```git commit -a -m "my initial commit"
- ```
+**Note:**
+*If you're not familiar with vim or vi, to quite the editor saving the changes type ":wq" -that's colon wq- or ":q" to quit without saving. Or you can specify -m to the git commit command followed by the message you want in double quotes, like so:*
+
+```git commit -a -m "my initial commit"```
 
 Now try editing some files and then, to view the changes, type:
- ```git diff
- ```
-This will highlight the changes between your uncommitted version and the last committed version. If you want to see the history of your changes at any time, user:
- ```git whatchanged
- ```
-or use:
- ```git whatchanged -p
- ```
-to see the complete differences at each change.
+ 
+```git diff```
+
+This will highlight the changes between your uncommitted version and the last committed version. If you want to see the history of your changes at any time, user: 
+
+```git whatchanged```
+
+or use: ```git whatchanged -p``` to see the complete differences at each change.
 
 The very cool thing about Git is how easily it enables you to create new branches. For example, if you want to create an expreimental function inside a class file you're working on or inside a javascript file but you want it away from the master branch, you can easily create a new branch, checkout this branch, edit your file, and all the changes will be completely isolated from the master branch. To create a new branch:
- ```git branch testBranch
-git branch
- ```
+
+```git branch testBranch```
+`git branch`
+
 The first command will create testBranch for you and the second command will list all the available branches on your repository (by far there should be only testBranch and the master branch "master").
 
-<b>Note:</b> <i>The selected branch has an * displayed before it. </i>
-<i>
-</i>
+**Note:** *The selected branch has an * displayed before it.*
+
 Now enter :
- ```git  checkout testBranch
- ```
+
+ ```git  checkout testBranch```
+
 to switch to the newly created branch. Try editing somefiles, and show the diffs.
- ```git diff
- ```
+
+ ```git diff```
 You should now see the changes you made, commit those changes. And switch to the master branch:
- ```git commit -a
-git checkout master
+
  ```
+	git commit -a
+	git checkout master
+ ```
+
 If you look at the files you just edited when you were on testBranch -after switching to the master branch- you would notice that the changes you made while you were on testBranch are gone. However, if you switch to the testBranch again you will see your changes there. If you're happy with the changes you made on testBranch, you can merge those changes to the master branch by using the following command:
- ```git merge testBranch
- ```
+ 
+ ```git merge testBranch```
+
 If there is no confilcts, you're allset. If there are conflicts you will have to resolve them manually and then commit the file. Git will show you which files have conflicts.
 Now, if you are done with the test branch and want to delte it, use:
+
  ```git branch -d testBranch
  ```
 
