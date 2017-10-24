@@ -9,7 +9,7 @@ gems:
 paginate: 5
 
 # permalink
-permalink: /blog/:title
+permalink: /:title
 
 title: "Programming for COWARDS"
 description: "I break it, I fix it, or I don't; either way, I tell you about it"
