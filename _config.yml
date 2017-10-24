@@ -9,13 +9,13 @@ gems:
 paginate: 5
 
 # permalink
-permalink: /:title
+permalink: /blog/:title
 
 title: "Programming for COWARDS"
 description: "I break it, I fix it, or I don't; either way, I tell you about it"
 tagline: 'Programming, .NET, DevOps, Node, JavaScript, Angular, SQL, Docker'
 url: http://galilyou.com
-baseurl: /
+baseurl: ""
 
 # Dependencies
 markdown: kramdown
