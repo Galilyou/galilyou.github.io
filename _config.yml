@@ -1,6 +1,6 @@
 epository: https://github.com/Galilyou/galilyou.github.io
 
-gems:
+plugins:
 - jekyll-github-metadata
 - jekyll-redirect-from
 - jekyll-paginate
