@@ -1,13 +1,17 @@
 version: '3'
 services:
   jekyll-github:
-    image: starefossen/github-pages
+    image: jekyll/builder
     ports:
       - 4000:4000
     volumes:
       - ./:/usr/src/app
-
+    working_dir: /usr/src/app
+    command: sh -c "bundle install && touch /usr/src/app/install_successful.txt && bundle exec jekyll serve --host 0.0.0.0 --port 4000 --force_polling --livereload"
     #secret env vars read from running machine:
     # Environment variables with only a key are resolved to their values on the machine Compose is running on, which can be helpful for secret or host-specific values. (https://docs.docker.com/compose/compose-file/#environment)
+    # user: directive removed
     environment:
       - JEKYLL_GITHUB_TOKEN
+      - BUNDLE_GEMFILE=/usr/src/app/Gemfile
+      - BUNDLE_PATH=/usr/src/app/vendor/bundle # Explicitly set BUNDLE_PATH
