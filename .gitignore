@@ -1,0 +1,11 @@
+# Ignore bundler vendor directory
+vendor/
+
+# Ignore Jekyll build output
+_site/
+
+# Ignore other common files
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+# Gemfile.lock should be tracked, ensure it's not in .gitignore

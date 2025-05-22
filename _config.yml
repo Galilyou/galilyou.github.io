@@ -29,7 +29,8 @@ highlighter: rouge
 
 # Feed
 copyright: '2017 Ahmed Al-Halwagy'
-feed: feed.xml
+feed:
+  path: feed.xml # Ensures feed config is a hash
 avatar: public/images/avatar.png
 
 # Author
